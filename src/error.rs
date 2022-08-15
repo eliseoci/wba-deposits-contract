@@ -14,4 +14,10 @@ pub enum ContractError {
 
     #[error("Invalid Coin")]
     InvalidCoin {},
+
+    #[error("Unauthorized")]
+    Unauthorized {},
+
+    #[error("Deposits Disabled")]
+    DepositsDisabled {},
 }
